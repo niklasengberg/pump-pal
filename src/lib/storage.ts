@@ -43,9 +43,15 @@ export function saveData(data: AppData) {
   window.dispatchEvent(new CustomEvent("podtracker:update"));
 }
 
+function sortByDateDesc(list: Placement[]): Placement[] {
+  return [...list].sort(
+    (a, b) => new Date(b.startedAt).getTime() - new Date(a.startedAt).getTime(),
+  );
+}
+
 export function addPlacement(p: Placement) {
   const d = loadData();
-  d.placements.unshift(p);
+  d.placements = sortByDateDesc([p, ...d.placements]);
   saveData(d);
 }
 
