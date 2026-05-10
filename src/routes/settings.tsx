@@ -94,6 +94,7 @@ function SettingsPage() {
             <SelectContent>
               <SelectItem value="2">2</SelectItem>
               <SelectItem value="3">3</SelectItem>
+              <SelectItem value="7">7</SelectItem>
             </SelectContent>
           </Select>
         </div>
