@@ -91,7 +91,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         async: true,
         src: "https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js",
-        "data-app-id": "REPLACE_WITH_TELEMETRYDECK_APP_ID",
+        "data-app-id": "EE15E8E0-9839-47AE-A011-B22B75721F30",
       },
     ],
   }),
