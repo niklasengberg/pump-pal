@@ -77,9 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "PodTracker" },
       { name: "description", content: "Håll koll på var du senast placerade din insulinpump och få förslag på nästa plats." },
       { property: "og:title", content: "PodTracker" },
-      { property: "og:description", content: "Insulinpump-placering, smart rotation och historik." },
+      { property: "og:description", content: "Håll koll på var du senast placerade din insulinpump och få förslag på nästa plats." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "PodTracker" },
+      { name: "twitter:description", content: "Håll koll på var du senast placerade din insulinpump och få förslag på nästa plats." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bdeb9034-f7d9-4073-b596-82e20b53365c/id-preview-d0919ae9--4bf4fb26-a2e8-405e-a0af-dbb234fa0f92.lovable.app-1778747373580.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bdeb9034-f7d9-4073-b596-82e20b53365c/id-preview-d0919ae9--4bf4fb26-a2e8-405e-a0af-dbb234fa0f92.lovable.app-1778747373580.png" },
     ],
     links: [
       {
